@@ -1,0 +1,16 @@
+{
+    "name":"spotsite/orcasiteproject",
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }, 
+        "files": [
+            "app/core/Routers.php"
+        ]
+    },
+        
+    "require": {
+        "coffeecode/router": "^1.0",
+        "twig/twig": "^3.3"
+    }
+}
